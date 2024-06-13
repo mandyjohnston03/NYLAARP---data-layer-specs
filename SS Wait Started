@@ -1,3 +1,6 @@
+####SS Wait Started
+
+##JavaScript Code
 //Send this when the wait time starts
 
 window.appEventData = window.appEventData || [];
@@ -5,3 +8,5 @@ appEventData.push({
 "event”: "User Interaction”
   	"action”: "SS Wait Started”
 });
+
+
