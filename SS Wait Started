@@ -5,7 +5,7 @@
 
 window.appEventData = window.appEventData || [];
 appEventData.push({
-"event”: "User Interaction”
+    "event”: "User Interaction”
   	"action”: "SS Wait Started”
 });
 
