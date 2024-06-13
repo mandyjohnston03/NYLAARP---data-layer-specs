@@ -1,7 +1,7 @@
-####SS Wait Started
+# SS Wait Started
 Send this when the wait time starts
 
-##JavaScript Code
+## JavaScript Code
 ```js
 window.appEventData = window.appEventData || [];
 appEventData.push({
