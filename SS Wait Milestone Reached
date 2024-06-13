@@ -1,3 +1,6 @@
+####SS Wait Milestone Reached
+
+##JavaScript Code
 //Send this event every 5 seconds that the user has been waiting
 
 window.appEventData = window.appEventData || [];
