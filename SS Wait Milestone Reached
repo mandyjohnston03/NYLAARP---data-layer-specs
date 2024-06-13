@@ -1,0 +1,12 @@
+//Send this event every 5 seconds that the user has been waiting
+
+window.appEventData = window.appEventData || [];
+appEventData.push({
+  	"event": "User Interaction", 
+	"action": "SS Wait Milestone Reached",
+	"wait_detail"{
+    		"increment_seconds": 5, 
+    		"total_seconds”: 5/10/15,
+    		"maximum_wait_time”: 120/180/240 
+		}
+});
