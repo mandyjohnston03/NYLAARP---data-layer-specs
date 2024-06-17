@@ -1,7 +1,7 @@
 # SS Result Displayed
 
 
-##Javascript Code
+## Javascript Code
 ```js
 window.appEventData = window.appEventData || [];
 appEventData.push({
