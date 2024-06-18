@@ -8,14 +8,14 @@
   data-ea-zone=“wait panel“
   data-ea-cta-link=“try it"
 >
-}
-});
+
 ```
 
 
 ## Dynamic Variable Definitions
 | Path     | Definition | Possible Values | Data Type |
 |----------|----------|----------|----------|
-| result.message  | This value for now will either be "Approved" or "Pending" - this will reflect the type of message you recieve | Approved/Pending | String |
-| result.type | This should be an empty string for now, but I added it as a placeholder for the future. The purpose is to add a coded value (like 1,2,3,4 etc.) to represent the actual status if the message is "Pending"  | |String |	
+| data-ea-type  | This is the type of component the CTA is | button, link | String |
+| data-ea-zone| This should reflect the location of the link. For S&S, this will be something like "wait panel", but actual values will be determined by internal team  | wait panel |String |	
+| data-ea-cta-link  | This should reflect the text of the cta link | Try It, Submit | String |
 
