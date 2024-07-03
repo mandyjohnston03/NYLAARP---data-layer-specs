@@ -1,5 +1,5 @@
 # Click Data Attributes
-
+These should be added to all buttons within the swift and seamless experience
 
 ## HTML Code
 ```html
