@@ -1,4 +1,4 @@
-# SS Result Displayed
+# Result Displayed
 
 
 ## Javascript Code
