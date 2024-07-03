@@ -1,4 +1,4 @@
-# SS Wait Started
+# Underwriting Wait Started
 Send this when the wait time starts
 
 ## JavaScript Code
@@ -6,6 +6,6 @@ Send this when the wait time starts
 window.appEventData = window.appEventData || [];
 appEventData.push({
     "event”: "User Interaction”
-  	"action”: "SS Wait Started”
+  	"action”: "Underwriting Wait Started”
 });
 ```
