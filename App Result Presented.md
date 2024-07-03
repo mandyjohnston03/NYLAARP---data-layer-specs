@@ -1,4 +1,4 @@
-# Result Displayed
+# App Result Presented
 
 
 ## Javascript Code
@@ -6,7 +6,7 @@
 window.appEventData = window.appEventData || [];
 appEventData.push({
   "event": "User Interaction",
-  "action”: "SS Result”
+  "action”: "App Result Presented”
   "result": {
     "message": "Approved",
     "type": "1"
@@ -19,4 +19,4 @@ appEventData.push({
 | Path     | Definition | Possible Values | Data Type |
 |----------|----------|----------|----------|
 | result.message  | This value for now will either be "Approved" or "Pending" - this will reflect the type of message you recieve | Approved/Pending | String |
-| result.type | This should be an empty string for now, but I added it as a placeholder for the future. The purpose is to add a coded value (like 1,2,3,4 etc.) to represent the actual status if the message is "Pending"  | |String |	
+| result.type | This should represent a coded value associated with the actual underwriting status if the message is "Pending"  | |String |	
