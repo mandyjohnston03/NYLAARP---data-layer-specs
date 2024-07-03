@@ -1,4 +1,4 @@
-# Wait Milestone Reached
+# Underwriting Wait Milestone Reached
 Send this event every 5 seconds that the user has been waiting
 
 ## JavaScript Code
@@ -6,7 +6,7 @@ Send this event every 5 seconds that the user has been waiting
 window.appEventData = window.appEventData || [];
 appEventData.push({
   	"event": "User Interaction", 
-	"action": "Wait Milestone Reached",
+	"action": "Underwriting Wait Milestone Reached",
 	"waitDetail"{
     		"incrementSeconds": 5, 
     		"totalSeconds”: 15,
