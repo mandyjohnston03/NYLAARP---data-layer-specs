@@ -7,5 +7,8 @@ window.appEventData = window.appEventData || [];
 appEventData.push({
     "event”: "User Interaction”
   	"action”: "Underwriting Wait Started”
+    "waitDetail"{
+    		"maximumWaitTime”: 240 
+		}
 });
 ```
