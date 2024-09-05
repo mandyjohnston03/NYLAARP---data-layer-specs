@@ -13,7 +13,7 @@ appEventData.push({
 ```
 
 
-##Dynamic Variable Definitions
+## Dynamic Variable Definitions
 | Path     | Definition | Possible Values | Data Type |
 |----------|----------|----------|----------|
 | user.loginType  | The purpose of this value is to identify users logging in through CSW Lite | Regular/Lite | String |
